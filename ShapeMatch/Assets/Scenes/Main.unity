@@ -1307,6 +1307,7 @@ MonoBehaviour:
   m_Data:
     m_Root: {fileID: 256876979}
     m_Mid: {fileID: 256876980}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Tip: {fileID: 256876988}
 =======
@@ -1316,6 +1317,9 @@ MonoBehaviour:
     m_Tip: {fileID: 256876988}
 >>>>>>> c42c42ab65341d0bfeb1ea5967f5a56b42e724f3
 >>>>>>> Stashed changes
+=======
+    m_Tip: {fileID: 256876981}
+>>>>>>> parent of c42c42a (Dodao demo scenu)
     m_Target: {fileID: 1670330822}
     m_Hint: {fileID: 724045701}
     m_TargetPositionWeight: 1
@@ -1611,6 +1615,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670330821}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.010192958, y: -0.0006474404, z: -0.024522224, w: 0.99964714}
   m_LocalPosition: {x: 0.0000004589941, y: 1.6099592, z: 0.032762375}
@@ -1623,6 +1628,10 @@ Transform:
   m_LocalPosition: {x: 0.0000004589941, y: 1.6099592, z: 0.032762375}
 >>>>>>> c42c42ab65341d0bfeb1ea5967f5a56b42e724f3
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> parent of c42c42a (Dodao demo scenu)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
