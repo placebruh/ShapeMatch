@@ -23,14 +23,14 @@ public class TargetMover : MonoBehaviour
             Physics.Raycast(ray, out hit);
             if(hit.transform == this.transform) {
                 focus = true;
-                HideOther();
+                //HideOther();
             }
         } else {
             if(focus) {
                 Vector3 temp = basePosition.transform.position;
                     temp.Set(temp.x, temp.y, zOffset);
                 this.gameObject.transform.position = temp;//basePosition.transform.position;
-                ShowOther();
+                //ShowOther();
             }
             focus = false;
         } 
