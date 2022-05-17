@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TargetMover : MonoBehaviour
 {
+    public float minX = -5, maxX = 5;
+    public float minY = -5, maxY = 5;
     private bool focus = false;
     public float zOffset = 0.5f;
     float distanceFromCamera;
@@ -49,9 +51,13 @@ public class TargetMover : MonoBehaviour
         worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
         worldPosition.z = this.gameObject.transform.position.z;
 
+        if(worldPosition.x < minX) worldPosition.x = minX;
+        if(worldPosition.x > maxX) worldPosition.x = maxX;
+
+        if(worldPosition.y < minY) worldPosition.y = minY;
+        if(worldPosition.y > maxY) worldPosition.y = maxY;
 
         this.gameObject.transform.position = worldPosition;
-
     }
 
     void HideOther() {

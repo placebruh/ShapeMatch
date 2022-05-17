@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/NoviModel.unity
+    guid: 94a41915817d0f0419844a7e33dc36df
   m_configObjects: {}
